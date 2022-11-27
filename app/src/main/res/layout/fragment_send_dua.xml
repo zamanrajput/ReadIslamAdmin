@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.SendDuaFrag">
+
+    <LinearLayout
+        android:padding="32dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_weight="8"
+        android:layout_height="match_parent">
+        <EditText
+            android:id="@+id/duaTitleEn"
+            android:padding="8dp"
+            android:hint="Title English"
+            android:textColor="@color/black"
+            android:background="#EEF7FF"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"/>
+        <EditText
+            android:layout_marginTop="4dp"
+            android:id="@+id/duaTitleUr"
+            android:padding="8dp"
+            android:hint="Title Urdu"
+
+            android:textColor="@color/black"
+            android:background="#EEF7FF"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"/>
+        <EditText
+            android:id="@+id/duaBodyAr"
+            android:layout_marginTop="8dp"
+            android:padding="8dp"
+            android:textColor="@color/black"
+            android:hint="type arabic dua here"
+            android:layout_marginBottom="2dp"
+            android:background="#1B000000"
+            android:gravity="start"
+
+            android:layout_width="match_parent"
+            android:inputType="textLongMessage"
+            android:layout_height="100dp"/>
+        <EditText
+            android:id="@+id/tasbeehReferenceEng"
+            android:layout_marginTop="2dp"
+            android:padding="8dp"
+            android:textColor="@color/black"
+            android:hint="type Eng-translation of dua here"
+            android:layout_marginBottom="2dp"
+            android:background="#1B000000"
+            android:gravity="start"
+            android:layout_width="match_parent"
+            android:inputType="textLongMessage"
+            android:layout_height="100dp"/>
+        <EditText
+            android:id="@+id/duaBodyUr"
+            android:layout_marginTop="2dp"
+            android:padding="8dp"
+            android:textColor="@color/black"
+            android:hint="type Urdu-translation of dua here"
+            android:layout_marginBottom="8dp"
+            android:background="#1B000000"
+            android:gravity="start"
+            android:layout_width="match_parent"
+            android:inputType="textLongMessage"
+            android:layout_height="80dp"/>
+        <Button
+            android:id="@+id/uploadDua"
+            android:text="Upload Dua"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"/>
+        <Button
+            android:onClick="OpenDuasList"
+            android:id="@+id/openDuaList"
+            android:text="List Dua"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"/>
+    </LinearLayout>
+
+</FrameLayout>

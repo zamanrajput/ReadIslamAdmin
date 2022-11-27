@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="12dp"
+    tools:context=".Activities.HadeesatListActivity">
+    <TextView
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:paddingBottom="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Duas"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        />
+    <androidx.recyclerview.widget.RecyclerView
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        android:id="@+id/duasRecylierView"
+        android:layout_width="match_parent"
+        tools:listitem="@layout/recview_item"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

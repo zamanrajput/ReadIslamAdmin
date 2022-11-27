@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "420238499688",
+    "project_id": "read-islam-89da7",
+    "storage_bucket": "read-islam-89da7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:420238499688:android:1abb236caf7e390a7f00dd",
+        "android_client_info": {
+          "package_name": "com.neonstudio.readislam_prayertiming_kalma_hadees_masnoonduain"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "420238499688-uc2oena9dofr83t5o1s7qr3p9rvuvett.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfJ8DceWxbvR7GlitSj5TdQfP3gvt1fPM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "420238499688-uc2oena9dofr83t5o1s7qr3p9rvuvett.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:420238499688:android:1bd9cba436b987f37f00dd",
+        "android_client_info": {
+          "package_name": "com.rajpoot.readislamadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "420238499688-uc2oena9dofr83t5o1s7qr3p9rvuvett.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfJ8DceWxbvR7GlitSj5TdQfP3gvt1fPM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "420238499688-uc2oena9dofr83t5o1s7qr3p9rvuvett.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

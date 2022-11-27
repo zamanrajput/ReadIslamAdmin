@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Color1"
+    android:gravity="center"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:theme="@style/Splash"
+    android:orientation="vertical"
+    tools:context=".Activities.Splash"
+    >
+    <TextView
+
+        android:textSize="38dp"
+        android:textColor="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Read Islam"/>
+    <TextView
+
+        android:textSize="24dp"
+        android:textColor="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Admin Panel"/>
+    <EditText
+        android:id="@+id/username"
+        android:paddingLeft="16dp"
+        android:maxLength="5"
+        android:inputType="text"
+        android:hint="enter username"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/field_selector"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+    <EditText
+        android:id="@+id/password"
+        android:hint="enter pin"
+        android:inputType="numberPassword"
+        android:maxLength="4"
+        android:paddingLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/field_selector"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+
+    <Button
+        android:id="@+id/loginBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/Color1"
+        android:background="@drawable/unselected"
+
+        android:text="Login" />
+
+
+</LinearLayout>

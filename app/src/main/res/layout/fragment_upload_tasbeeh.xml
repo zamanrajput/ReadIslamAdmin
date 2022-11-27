@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Fragments.UploadTasbeehFragment">
+
+    <LinearLayout
+        android:padding="32dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+
+
+        android:layout_height="match_parent">
+        <EditText
+
+            android:id="@+id/tasbeehNo"
+            android:padding="8dp"
+            android:hint="No i.e 1"
+            android:textColor="@color/black"
+            android:background="#EEF7FF"
+            android:inputType="number"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"/>
+        <EditText
+            android:layout_marginTop="4dp"
+            android:id="@+id/tasbeehNameEnglish"
+            android:padding="8dp"
+            android:hint="Name in English"
+            android:textColor="@color/black"
+            android:background="#EEF7FF"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"/>
+        <EditText
+            android:layout_marginTop="4dp"
+            android:id="@+id/tasbeehNameArabic"
+            android:padding="8dp"
+            android:hint="Name in Arabic"
+            android:textColor="@color/black"
+            android:background="#EEF7FF"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"/>
+        <EditText
+            android:layout_marginTop="4dp"
+            android:id="@+id/tasbeehTitleEnglish"
+            android:padding="8dp"
+            android:hint="Title in English"
+
+            android:textColor="@color/black"
+            android:background="#EEF7FF"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"/>
+        <EditText
+            android:id="@+id/tasbeehMeaningEng"
+            android:layout_marginTop="8dp"
+            android:padding="8dp"
+            android:textColor="@color/black"
+            android:hint="type English meaning here"
+            android:layout_marginBottom="2dp"
+            android:background="#1B000000"
+            android:gravity="start"
+            android:layout_width="match_parent"
+            android:inputType="textPostalAddress"
+            android:layout_height="100dp"/>
+        <EditText
+            android:id="@+id/tasbeehReferenceEng"
+            android:layout_marginTop="2dp"
+            android:padding="8dp"
+            android:textColor="@color/black"
+            android:hint="Type Reference in English here"
+            android:layout_marginBottom="2dp"
+            android:background="#1B000000"
+            android:gravity="start"
+            android:layout_width="match_parent"
+            android:inputType="textLongMessage"
+            android:layout_height="100dp"/>
+        <Button
+            android:id="@+id/uploadDua"
+            android:text="Upload Dua"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"/>
+        <Button
+            android:onClick="OpenList"
+            android:id="@+id/viewListBtn"
+            android:text="Already Tasbehaat"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"/>
+
+    </LinearLayout>
+
+</FrameLayout>

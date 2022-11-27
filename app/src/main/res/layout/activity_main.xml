@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="32dp"
+    android:weightSum="120"
+    android:orientation="vertical"
+    tools:context=".Activities.MainActivity">
+
+    <Button
+        android:layout_weight="20"
+        android:onClick="SendDua"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:text="Upload Dua"
+        android:layout_width="match_parent"
+        android:layout_height="60dp" />
+    <Button
+        android:layout_weight="20"
+        android:onClick="SendHadees"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:text="Upload HADEES"
+        android:layout_width="match_parent"
+        android:layout_height="60dp" />
+    <Button
+        android:layout_weight="20"
+        android:onClick="SendStory"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:text="Upload Islamic Story"
+        android:layout_width="match_parent"
+        android:layout_height="60dp" />
+    <Button
+        android:layout_weight="20"
+        android:onClick="SendNotification"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:text="Send Notification"
+        android:layout_width="match_parent"
+        android:layout_height="60dp" />
+    <Button
+        android:layout_weight="20"
+        android:onClick="UploadTasbeeh"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:text="Upload Tasbeeh"
+        android:layout_width="match_parent"
+        android:layout_height="60dp" />
+
+
+</LinearLayout>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.SendIslamicStoryFrag">
+
+
+
+    <LinearLayout
+        android:padding="32dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_weight="8"
+        android:layout_height="match_parent">
+        <EditText
+            android:id="@+id/storyTitleEn"
+            android:padding="8dp"
+            android:hint="Title English"
+            android:textColor="@color/black"
+            android:background="#EEF7FF"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"/>
+        <EditText
+            android:layout_marginTop="4dp"
+            android:id="@+id/storyTitleUr"
+            android:padding="8dp"
+            android:hint="Title Urdu"
+
+            android:textColor="@color/black"
+            android:background="#EEF7FF"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"/>
+
+        <EditText
+            android:id="@+id/storyBodyEn"
+            android:layout_marginTop="2dp"
+            android:padding="8dp"
+            android:textColor="@color/black"
+            android:hint="type English"
+            android:layout_marginBottom="2dp"
+            android:background="#1B000000"
+            android:gravity="start"
+            android:scrollbars="vertical"
+            android:layout_width="match_parent"
+            android:inputType="textMultiLine"
+            android:scrollHorizontally="false"
+            android:layout_height="120dp"/>
+        <EditText
+            android:id="@+id/storyBodyUr"
+            android:layout_marginTop="2dp"
+            android:padding="8dp"
+            android:textColor="@color/black"
+            android:hint="type Urdu"
+            android:layout_marginBottom="8dp"
+            android:background="#1B000000"
+            android:scrollHorizontally="false"
+            android:gravity="start"
+            android:scrollbars="vertical"
+            android:layout_width="match_parent"
+            android:inputType="textMultiLine"
+            android:layout_height="120dp"/>
+
+        <Button
+            android:id="@+id/uploadStory"
+            android:text="Upload Story"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"/>
+        <Button
+            android:onClick="OpenStoriesList"
+            android:id="@+id/openDuaList"
+            android:text="List Stories"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"/>
+    </LinearLayout>
+
+</FrameLayout>
